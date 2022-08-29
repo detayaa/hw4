@@ -91,13 +91,12 @@ public class main {
             }
 
             // задание 3.3
-        int one =1;
-            int two = 2;
-            int three = 3;
-            if (one > two) {
+        int one =10;
+            int two = 20;
+            int three = 30000;
+            if (one > two && one > three) {
                 System.out.println(one);
-            }
-            if (two > three) {
+            } else if (two > three && two > three) {
                 System.out.println(two);
             } else {
                 System.out.println(three);
