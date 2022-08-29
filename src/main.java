@@ -64,6 +64,44 @@ public class main {
                 System.out.println("Мест нет");
             }
 
+            // задание 1.3
+        int ageHuman = 19;
+            if (ageHuman >=2 && ageHuman <= 6) {
+            System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить в десткий сад");
+        }
+            if (ageHuman >= 7 && ageHuman <= 18) {
+                System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить в школу");
+            }
+            if (ageHuman > 18 && ageHuman < 24) {
+                System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить в университет");
+            } else {
+                System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить на работу");
+            }
+
+
+            // задание 2.3
+        int age3 = 14;
+            if (age3 < 5) {
+                System.out.println("Ребенок не может кататься");
+            }
+            if (age3 >= 5 && age3 < 14) {
+                System.out.println("Ребенок может кататься только в сопровождении взрослого");
+            } else {
+                System.out.println("Ребенок может кататься без сопровождения");
+            }
+
+            // задание 3.3
+        int one =1;
+            int two = 2;
+            int three = 3;
+            if (one > two) {
+                System.out.println(one);
+            }
+            if (two > three) {
+                System.out.println(two);
+            } else {
+                System.out.println(three);
+            }
         }
     }
 
