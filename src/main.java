@@ -33,5 +33,37 @@ public class main {
         if (capacity > 102) {
             System.out.println("Мест в вагоне не осталось");
         }
+
+        // задание 2.1
+        int age2 = 17;
+        if (age2 >= 18) {
+            System.out.println("Поздравляем");
+            } else {
+            System.out.println("Не достигли возраста");
+        }
+
+        // задание 2.2
+        int childAge = 82;
+        if (childAge >= 7 && childAge < 18) {
+            System.out.println("Ребенок ходит в школу");
+        }
+            if (childAge >= 18 && childAge < 24) {;
+            System.out.println("Человек в университете");
+        } else {
+                System.out.println("Пора искать работу");
+            }
+
+            // задание 3.2
+        int capacity2 = 103;
+            if (capacity2 <= 60) {
+                System.out.println("Есть сидячие места");
+            }
+            if (capacity2 > 60 && capacity2 <=102) {
+                System.out.println("Остались стоячие места");
+            } else {
+                System.out.println("Мест нет");
+            }
+
+        }
     }
-}
+
