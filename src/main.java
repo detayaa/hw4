@@ -22,5 +22,16 @@ public class main {
             System.out.println("Пора искать работу");
         }
 
+        // задание 3
+        int capacity = 103;
+        if (capacity <= 60) {
+            System.out.println("Сидячие места есть");
+        }
+        if (capacity > 60 && capacity <= 102) {
+            System.out.println("Остались стоячие места");
+        }
+        if (capacity > 102) {
+            System.out.println("Мест в вагоне не осталось");
+        }
     }
 }
